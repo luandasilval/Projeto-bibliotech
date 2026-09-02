@@ -21,3 +21,7 @@ body
     background-color: var(--branco);
     color: var(--texto);
 }
+
+html{
+    scroll-behavior: smooth;/*desce scroll mais suave*/
+}
