@@ -110,6 +110,7 @@ a {
 .titulo-secao h2 {
     font-size: 1.5em;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .titulo-secao span {
@@ -182,7 +183,7 @@ a {
     position: absolute;
 
     top: -15%;
-    /*Move o elemento para cima o valor negativo faz ele sair parcialmente do card*/ 
+    /*Move o elemento para cima o valor negativo faz ele sair parcialmente do card*/
 
     left: 50%;
     /*Coloca o elemento em 50% da largura do card*/
@@ -196,35 +197,118 @@ a {
     /*Mesma coisa que colocar align-items-center; e justfy-items-center; */
 }
 
-.beneficio h3{
+.beneficio h3 {
     font-size: 1.2em;
     margin-bottom: 30px;
     text-transform: uppercase;
     width: 90%;
 }
 
-.beneficio p
-{
+.beneficio p {
     font-size: 1em;
     width: 80%;
 }
 
 /*banner meio*/
-.banner-meio
-{
-height: 60vh;
+.banner-meio {
+    height: 60vh;
 
-background-image: url(../imgs/Banner\ centro.svg);
-background-size: cover;
+    background-image: url(../imgs/Banner\ centro.svg);
+    background-size: cover;
 
-display: flex;
-justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 
-padding: 0 120px;
-color: var(--branco);
+    padding: 0 120px;
+    color: var(--branco);
 }
 
-.livro
-{
-    
+.livro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 400px;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
+
+footer {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 60px 120px;
+}
+
+/* LADO ESQUERDO (Logos) */
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.esquerda img {
+    max-width: 180px;
+    height: auto;
+}
+
+
+.linksDeCima {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 40px;
+    height: 100%;
+}
+
+.direita h2 {
+    color: var(--cor-destaque);
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+}
+
+
+
+.redesSociais {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: auto;
+}
+
+.iconesRedes {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.iconesRedes img {}
+
+.embaixo span {
+    display: flex;
+    width: 90%;
+    height: 2px;
+    background-color: #fff;
+}
+
+
+.em-cima {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 120px;
+}
+
