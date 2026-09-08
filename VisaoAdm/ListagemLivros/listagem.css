@@ -1,0 +1,113 @@
+.menu-lateral
+{
+    background-color: var(--azul-escuro);
+
+    height: 100vh;
+    border-radius: 0 30px 30px 0;
+
+    display: flex;
+
+    flex-direction: column;
+    padding: 30px 50px;
+
+}
+
+.pagina-listagem
+{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+/* topo do menu */
+
+.topo-menu
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao-voltar 
+{
+    width: 40px;
+height: 40px;
+font-size: 22px; /* ajustar tamanho do icone*/
+border-radius: 50%;
+border: 2px solid var(--cor-destaque);
+
+background-color: transparent;
+color: var(--branco);
+
+align-self: flex-end;
+cursor: pointer;
+
+}
+
+/* logo */
+
+.logo
+{
+    margin-top: 10%;
+    margin-bottom: 30%;
+    width: 40%;
+}
+ /* navegação */
+ .menu-navegacao
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.item-menu
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.item-menu i 
+{
+    width: 30px;
+    font-size: 1.5em;
+
+}
+
+.item-menu:hover
+{
+    color: var(--cor-destaque);
+    padding-bottom: 10px;
+    border-bottom: 4px solid var(--cor-destaque);
+}
+
+.item-menu .ativo
+{
+    padding-bottom: 10px;
+    border-bottom: 4px solid var(--cor-destaque);
+}
+
+.botao-sair {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-top: auto;
+}
+
+.botao-sair  i
+{
+font-size: 30px;
+}
+
+.botao-sair:hover {
+    color: var(--cor-destaque);
+}
