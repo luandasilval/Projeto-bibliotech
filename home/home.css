@@ -234,23 +234,8 @@ a {
     margin-bottom: 120px;
 }
 
-footer {
-    background-color: var(--azul-escuro);
-    color: var(--branco);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+/* footer - feito pelos alunos */
 
-    padding: 60px 120px;
-    gap: 20px
-}
-
-footer span {
-    height: 2px;
-    background-color: var(--branco);
-    width: 100%;
-
-}
 
 .em-cima {
     display: flex;
@@ -262,7 +247,7 @@ footer span {
     display: grid;
     grid-template-columns: 1fr auto;
     gap: 50px 100px;
-    
+
 }
 
 .esquerda {
@@ -278,6 +263,96 @@ footer span {
     gap: 20px;
 }
 
-.direita h2{
+.direita h2 {
     color: var(--cor-destaque);
+}
+
+footer {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    padding: 100px 120px 30px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape-logos {
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+
+.rodape-informacoes {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.nav-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-footer p {
+    color: var(--cor-destaque);
+    margin-bottom: 20px;
+
+}
+
+.nav-footer a {
+    color: var(--branco);
+    margin-bottom: 10px;
+}
+
+.icones {
+    display: flex;
+    gap: 20px;
+}
+
+footer span {
+    display: flex;
+    margin: 50px 0;
+    background-color: white;
+    height: 1px;
+    width: 100%;
+}
+
+.footer-inferior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.rodape-informacoes p {
+    color: var(--cor-destaque);
+    font-size: 1em;
+    font-weight: 700;
+    width: 100%;
+}
+
+.footer-inferior {
+    display: flex;
+}
+
+/* responsividade */
+.botao-menu {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-menu i {
+    font-size: 2em;
+
+    color: var(--branco);
+    border-radius: 10px;
 }
