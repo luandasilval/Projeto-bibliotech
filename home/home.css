@@ -533,11 +533,13 @@ footer span {
     }
 
     /* FOOTER */
-    .rodape-logos footer {
-        padding: 50px 20px 20px;
+
+    footer {
+        padding: 50px 40px;
     }
 
-    .main {
+
+    footer .main {
         flex-direction: column;
     }
 
@@ -570,5 +572,58 @@ footer span {
     .footer {
         flex-direction: column;
         gap: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .banner-principal img {
+        width: 80%;
+    }
+
+    .beneficios-lista {
+        grid-template-columns: repeat(3, 65%);
+    }
+
+    .beneficio-icone {
+        width: 35%;
+    }
+
+    .banner-meio {
+        background-position: 40%;
+    }
+
+    footer .main {
+        gap: 50px;
+    }
+
+    .rodape-logos img {
+        width: 100%;
+    }
+
+    .rodape-logos {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+
+
+    .rodape-icones {
+        display: flex;
+        gap: 10px;
+
+    }
+
+    .rodape-icones img {
+        width: 80%;
+    }
+
+    .footer-inferior {
+        flex-direction: column;
+
+    }
+
+    .footer {
+        gap: 40px;
+        text-align: left;
     }
 }

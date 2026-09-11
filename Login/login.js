@@ -4,18 +4,6 @@
 
 // alert("Hello world!!");
 
-// var nome = "Késsia" !não vamos usar o var
-
-// let nome = "Késsia"
-// console.log(nome)
-
-// nome = "Pedro"
-// console.log(nome)
-
-// const nome = "Késsia"
-// console.log(nome)
-
-// nome = "Pedro"
 // console.log(nome)
 
 const campoSenha = document.getElementById("senha");
